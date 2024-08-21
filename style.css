@@ -199,6 +199,79 @@
     color: #00EB09;
 }
 
+.Pulsa {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Pulsa img {
+    border-radius: 10px;
+}
+
+.harga {
+    color: #00EB09;
+}
+
+.link a {
+    color: #fff;
+}
+
+.link a:hover {
+    color: #00EB09;
+}
+
+.Paket {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Paket img {
+    border-radius: 10px;
+}
+
+.harga {
+    color: #00EB09;
+}
+
+.link a {
+    color: #fff;
+}
+
+.link a:hover {
+    color: #00EB09;
+}
+
+
+.uang {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.uang img {
+    border-radius: 10px;
+}
+
+.harga {
+    color: #00EB09;
+}
+
+.link a {
+    color: #fff;
+}
+
+.link a:hover {
+    color: #00EB09;
+}
+
 .tentang
 {
     display: grid;
@@ -270,6 +343,24 @@ footer
     }
     
     .populer {
+        display: grid;
+        grid-template-columns: repeat(3,1fr) ;
+        font-size: 10pt;
+    }
+
+    .Pulsa {
+        display: grid;
+        grid-template-columns: repeat(3,1fr) ;
+        font-size: 10pt;
+    }
+
+    .Paket {
+        display: grid;
+        grid-template-columns: repeat(3,1fr) ;
+        font-size: 10pt;
+    }
+
+    .uang{
         display: grid;
         grid-template-columns: repeat(3,1fr) ;
         font-size: 10pt;
